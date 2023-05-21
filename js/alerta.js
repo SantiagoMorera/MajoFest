@@ -5,7 +5,7 @@ function alerta() {
     imageWidth: 200,
     imageHeight: 250,
     text: 'María José',
-    title: 'Has sido invitado al cumpleaños No. 1 de:',
+    title: '<span>¡</span>Ven a celebrar el cumpleaños de<span>:</span>',
     confirmButtonText: 'Abrir',
     confirmButtonColor: '#9c0dcb',
     color: '#000',
@@ -17,7 +17,6 @@ function alerta() {
     hideClass: {
       popup: 'animate__animated animate__bounceOut'
     },
-    footer: 'Invitacion para 4 personas'
 
 
   });
