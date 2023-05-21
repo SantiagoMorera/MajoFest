@@ -391,7 +391,6 @@ h1 {
 
 .troll-end {
 	width: 112%;
-	filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3));
 }
 
 /* <!-- Confirmar asistencia --> */
@@ -551,9 +550,21 @@ h1 {
 	margin-bottom: 0;
 	padding: 10px;
 
+	div {
+		display: flex;
+		justify-content: space-evenly;
+		width: 55%;
+		align-items: center;
+		flex-direction: row;
+	}
+
 	p {
 		margin: 0;
 		font-size: 14px;
+
+		span {
+			font-size: 14px;
+		}
 	}
 
 	a {
