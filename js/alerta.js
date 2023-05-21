@@ -1,11 +1,11 @@
 
 function alerta() {
   Swal.fire({
-    imageUrl: '../img/trolls/giphy (4).gif',
+    imageUrl: 'https://media1.giphy.com/media/UVMaSzWhq7NnPulCOd/giphy.gif?cid=ecf05e479fhtxv7qp8lpdt95ndo6xi5nibtayrh9v54c7p7z&ep=v1_gifs_related&rid=giphy.gif&ct=s',
     imageWidth: 200,
     imageHeight: 250,
     text: 'María José',
-    title: 'Has sido invitado a cumpleaños No. 1 de:',
+    title: 'Has sido invitado al cumpleaños No. 1 de:',
     confirmButtonText: 'Abrir',
     confirmButtonColor: '#eb3dbf',
     color: '#000',
