@@ -23,9 +23,11 @@ body {
 }
 
 span {
-	font-family: monospace;
-
+	font-family: cursive;
+	font-size: 19px;
+	font-weight: 900;
 }
+
 
 /* <!-- welcome alert --> */
 
@@ -43,11 +45,10 @@ span {
 }
 
 .swal2-title {
-	font-size: 1.175em !important;
-	font-weight: 600 !important;
+	font-weight: 100 !important;
 	font-family: "Trolls Movie Font";
-	font-size: 25px !important;
-	color: rgba(255, 255, 255, 0.8);
+	font-size: 23px !important;
+	color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .swal2-popup {
@@ -57,14 +58,18 @@ span {
 
 .swal2-html-container {
 	font-size: 3em !important;
-	font-weight: 600 !important;
-	/* font-family: "Allura", cursive; */
+	margin-top: 10px !important;
+	font-weight: 100 !important;
 	font-family: "Trolls Movie Font";
-	font-size: 70px !important;
+	font-size: 49px !important;
 	color: rgba(255, 255, 255, 0.8) !important;
 
 }
 
+/* .swal2-image {
+	margin-left: 15%;
+}
+ */
 /* <!-- column-main --> */
 
 .column-main {
@@ -111,7 +116,7 @@ span {
 	/* 	box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3); */
 
 	body.dark & {
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: rgb(0 0 0 / 50%);
 		-webkit-backdrop-filter: blur(3px);
 		backdrop-filter: blur(3px);
 	}
@@ -129,7 +134,7 @@ span {
 
 
 		h2 {
-			font-size: 40px;
+			font-size: 34px;
 			margin: 0 0 15px 0;
 
 		}
@@ -160,8 +165,9 @@ span {
 
 		p {
 			font-size: 25px;
-			text-align: justify;
-			margin-bottom: 0;
+			text-align: center;
+			font-weight: 100;
+			margin-bottom: 10px;
 		}
 
 		h2 {
@@ -227,6 +233,11 @@ h1 {
 	text-shadow: rgba(255, 255, 255, 0);
 	font-family: "Trolls Movie Font";
 	font-weight: 600;
+
+	span {
+		font-size: 90px;
+		font-weight: bolder;
+	}
 
 
 
