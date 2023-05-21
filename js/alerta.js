@@ -7,9 +7,9 @@ function alerta() {
     text: 'María José',
     title: 'Has sido invitado al cumpleaños No. 1 de:',
     confirmButtonText: 'Abrir',
-    confirmButtonColor: '#eb3dbf',
+    confirmButtonColor: '#9c0dcb',
     color: '#000',
-    background: '#fde8ffa6',
+    background: '#ff81d8d4',
     backdrop: 'rgba(0,0,0,0.1)',
     showClass: {
       popup: 'animate__animated animate__backInDown'

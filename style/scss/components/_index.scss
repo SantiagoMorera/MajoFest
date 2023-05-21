@@ -7,13 +7,16 @@ body {
 	background-color: rgb(244, 205, 248) !important;
 	color: white !important;
 	text-align: center;
-	text-shadow: 0 0 10px black;
+	/* text-shadow: 0 0 10px black; */
 	transition: all 1s ease;
 
 	&.dark {
-		background: #0f0c29 !important;
-		background-color: -webkit-linear-gradient(to right, #24243e, #250428, #0f0c29) !important;
-		background-color: linear-gradient(to right, #24243e, #250428, #0f0c29) !important;
+		background: #03001e;
+		/* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #03001e, #7303c0, #ec38bc, #7303c0, #03001e);
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #03001e, #7303c0, #ec38bc, #7303c0, #03001e);
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		color: white;
 
 	}
@@ -51,7 +54,9 @@ body {
 .swal2-html-container {
 	font-size: 3em !important;
 	font-weight: 600 !important;
-	font-family: "Allura", cursive;
+	/* font-family: "Allura", cursive; */
+	font-family: "Trolls Movie Font";
+	font-size: 70px !important;
 
 }
 
@@ -73,7 +78,15 @@ body {
 	}
 }
 
+
+/*  */
+
 /* <!-- Glass-Card --> */
+
+.opacity0 {
+	background-color: rgba(255, 255, 255, 0.0) !important;
+
+}
 
 .glass-card {
 	display: flex;
@@ -89,7 +102,7 @@ body {
 	background-color: rgba(15, 15, 15, 0.3);
 	padding: 20px;
 	transition: transform .7s, opacity .7s;
-	font-family: "Poiret One";
+	font-family: "Trolls Movie Font";
 	/* 	box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3); */
 
 	body.dark & {
@@ -138,10 +151,10 @@ body {
 		text-align: justify;
 		padding: 10px;
 
-		font-family: "Poiret One";
+		font-family: "Trolls Movie Font";
 
 		p {
-			font-size: 19px;
+			font-size: 25px;
 			text-align: justify;
 			margin-bottom: 0;
 		}
@@ -184,7 +197,7 @@ body {
 		text-decoration: none;
 		color: white;
 		border-radius: 15px;
-		font-family: "Poiret One";
+		font-family: "Trolls Movie Font";
 		transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 		body.dark & {
@@ -201,6 +214,22 @@ body {
 
 
 /* <!-- Header --> */
+
+h1 {
+
+	color: #ffdf01;
+	text-shadow: rgba(255, 255, 255, 0);
+	font-family: "Trolls Movie Font";
+	font-weight: 600;
+
+
+
+	body.dark & {
+		font-size: 110px;
+		color: #ffdf01;
+		text-shadow: rgba(255, 255, 255, 0);
+	}
+}
 
 .header {
 	display: flex;
@@ -316,6 +345,8 @@ body {
 
 .novios-white {
 	width: 100%;
+	filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 1));
+
 }
 
 /* <!-- Donde y cuando --> */
