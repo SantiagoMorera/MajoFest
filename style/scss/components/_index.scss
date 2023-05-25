@@ -64,9 +64,9 @@ hr {
 }
 
 .swal2-container {
-	-webkit-backdrop-filter: blur(10px) !important;
+	/* 	-webkit-backdrop-filter: blur(10px) !important;
 	backdrop-filter: blur(10px) !important;
-	transition: all easy 2s;
+	transition: all easy 2s; */
 }
 
 .swal2-title {
@@ -556,6 +556,10 @@ h1 {
 	width: 95%;
 	border-radius: 15px;
 	padding: 0;
+}
+
+.animation-box {
+	animation: animate__zoomInDown .5s 2s 1 fill-mode;
 }
 
 /* <!-- Footer --> */
