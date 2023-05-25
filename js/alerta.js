@@ -1,7 +1,7 @@
 
 const alerta = () => {
   Swal.fire({
-    imageUrl: '/img/trolls/output-onlinegiftools.gif',
+    imageUrl: './img/trolls/output-onlinegiftools.gif',
     imageWidth: 200,
     imageHeight: 250,
     html:
