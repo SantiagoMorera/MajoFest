@@ -31,6 +31,16 @@ body {
 	}
 }
 
+.clock {
+	position: absolute;
+	transform: rotate(42deg);
+	right: 55px;
+	top: 39px;
+	width: 67px;
+	padding: 10px;
+	filter: drop-shadow(0px 1px 1px black);
+}
+
 .te-esperamos {
 	font-size: 20px;
 	color: #ffdf01;
@@ -399,8 +409,8 @@ h1 {
 
 .novios-white {
 	width: 100%;
-	filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 1));
 	padding-left: 20px;
+	filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.804));
 }
 
 /* <!-- Donde y cuando --> */
@@ -408,6 +418,7 @@ h1 {
 .hotel-photo {
 	width: 70%;
 	border-radius: 15px;
+	filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.804));
 	margin: 10px;
 }
 
@@ -425,6 +436,7 @@ h1 {
 
 .troll-end {
 	width: 100%;
+	filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
 }
 
 /* <!-- Confirmar asistencia --> */
@@ -493,6 +505,8 @@ h1 {
 .save-frame {
 	width: 100% !important;
 	margin: 20px;
+	filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.4));
+
 }
 
 /* <!-- Mesa de regalos --> */
@@ -577,6 +591,7 @@ h1 {
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-around;
+	filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.7));
 
 	div {
 		display: flex;
