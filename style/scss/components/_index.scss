@@ -116,8 +116,9 @@ hr {
 }
 
 .swal2-modal {
-	background: rgba(255, 129, 215, 0.555) !important;
+	background: rgba(255, 129, 215, 0.7) !important;
 	backdrop-filter: blur(50px) !important;
+	-webkit-backdrop-filter: blur(50px) !important;
 	border-radius: 300px !important;
 }
 
@@ -570,6 +571,7 @@ h1 {
 	padding: 10px;
 	background-color: #00000029;
 	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
 	border-radius: 100px;
 	text-align: center;
 	align-items: center;
