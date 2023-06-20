@@ -654,6 +654,22 @@ h1 {
 }
 
 .this-is-santi-wa {
+
+	margin: 10px !important;
+	filter: drop-shadow(0 0 1px turquoise);
+	transition: all 0.3s ease;
+	animation: infinite tilt-shaking 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+
+	&:hover,
+	&:active {
+
+		filter: drop-shadow(0 0 3px rgba(255, 166, 0, 1));
+		animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+		transform: translate3d(0, 0, 0);
+		backface-visibility: hidden;
+		perspective: 1000px;
+	}
+
 	width: 30px;
 }
 
